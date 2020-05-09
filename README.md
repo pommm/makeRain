@@ -8,3 +8,6 @@ small arduino code for watering control
 4. DN50 24V AC servo valve to close main inlet pipe, prevent dripping
 5. 220V AC/DC 12V main supply
 6. DC/DC 5V for M5 and relay board. 
+
+
+![System in the box](/images/system.jpg)

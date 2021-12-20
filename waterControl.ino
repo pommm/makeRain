@@ -48,9 +48,9 @@ void makeRain(){
   Serial.println("Valve is on");
   delay(1000);
   
-  Serial.println("Turn pump on for 3 minite");
+  Serial.println("Turn pump on for 5 minite");
   digitalWrite(pump, HIGH);
-  delay(180000);
+  delay(300000);
   Serial.println("Turn pump off");
   digitalWrite(pump, LOW);
 
@@ -78,15 +78,15 @@ void loop() {
   if(timeClient.getHours() == 9 && timeClient.getMinutes() == 00){
     makeRain();
   }
-  else if (timeClient.getHours() == 12 && timeClient.getMinutes() == 00){
-    makeRain();
-  }
+  //else if (timeClient.getHours() == 12 && timeClient.getMinutes() == 00){
+  //  makeRain();
+  //}
   else if (timeClient.getHours() == 15 && timeClient.getMinutes() == 00){
     makeRain();
   }
-  else if (timeClient.getHours() == 18 && timeClient.getMinutes() == 33){
-    makeRain();
-  }
+  //else if (timeClient.getHours() == 18 && timeClient.getMinutes() == 33){
+  //  makeRain();
+  //}
   else if (M5.BtnA.wasReleased()) {
     makeRain();
   }

@@ -3,8 +3,8 @@
 #include <WiFi.h>
 #include <Arduino.h>
 #include <M5Stack.h>
-const char *ssid     = "Protrek";
-const char *password = "map38bok";
+const char *ssid     = "aaaa";
+const char *password = "xxxx";
 const long utcOffsetInSeconds = 25200;
 
 int transformer = 2;
